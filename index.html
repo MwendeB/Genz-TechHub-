@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b></b>GenZ TechHub Website<b></b></title>
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--GOOGLE FONTS(MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--SWIPER JS-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+ 
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+       body {
+        background-image: url(./images/bg-texture.png);
+       } 
+    </style>
+</head>
+<body>
+
+
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4></h4></a>GenZ TechHub
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        
+        </div>
+    </nav>
+    <!------------END OF NAV BAR-------------->
+
+
+
+
+
+    <header>
+        <div class="container header_container">
+            <div class="header_right">
+                <h1>Empowering young generation with digital skills</h1>
+                <br>
+                <p>
+                    Our platform aligns with the United Nations Sustainable Development Goal (SDG) 4: Quality Education. By focusing on providing primary school students with essential digital skills, we contribute directly to the global effort to ensure inclusive and equitable quality education for all.
+
+
+                </p>
+                <br>
+
+            </div>
+            <div class="header_left">
+                <div class="header_right-image">
+                    <img src="GK.jpeg">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </header>
+<section class="container testimonials_container mySwiper">
+                <h2>Testimonials</h2>
+                <div class="swiper-wrapper">
+                    
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="">
+                        </div>
+                        <div class="testimonial_info">
+                            <h5>John Munene</h5>
+                            <small>Student</small>
+                            <div class="testimonial_body">
+                                <p>
+                                  John, a primary school student whose journey with digital skills training on our platform has been nothing short of transformative. Before joining, John had limited exposure to the digital world, but after completing our program, his confidence and capabilities have soared.
+                                  John's story is just one among many, illustrating the profound impact of digital skills training on our students. It's more than education; it's an investment in their potential, setting the stage for a future where they are not just consumers but creators in the ever-evolving digital landscape.
+                                  
+                                </p>
+                            </div>
+                        </div>
+                    </article>   
+
+
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="SHA.jpeg">
+                        </div>
+                        <div class="testimonial_info">
+                            <h5>Joyce Shabene</h5>
+                            <small>Volunteer Tutor</small>
+                            <div class="testimonial_body">
+                                <p>
+                                    "I am delighted to share my  testimony about the incredible experience I had as a volunteer tutor at Gicici Primary. The three-day coding camp dedicated to teaching digital skills, Microsoft Office, and basic coding with HTML and CSS was nothing short of inspiring.
+                                    What stood out during the three-day coding camp was the resilience and creativity of the students. Each day was a journey of discovery, not just for them but for me as well. The collaborative spirit that emerged within the classroom showcased the potential for growth and empowerment through education".
+                                   
+
+                                </p>
+                            </div>
+                        </div>
+                    </article> 
+                    
+
+                    
+                                   
+
+                   
+
+    </section>
+  <!--============= END OF TESTIMONIALS ==================-->
+
+    <footer >
+        <div class="container footer_container">
+
+        <div class="footer_1">
+            <a href="index.html" class="footer_logo"><h4>GenZ TechHub</h4></a>
+            <p>Digital skills for young generation</p>
+        </div>
+
+      
+
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+254797257066</p>
+                <p>bmwende201@gmail.com</p>
+                 
+            </div>
+         
+            <div class="footer_socials">
+                <ul>
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; </small>GenZ TechHub
+            </div>
+        </footer>
+  <!--============= END OF FOOTER ==================-->
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+
+    <script>
+         var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+      },
+    });
+    </script>
+
+    
+
+
+  
+</body>
+</html>
